@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.tkf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tkf.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ToastInstanceMixin",
+    "ToastMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
